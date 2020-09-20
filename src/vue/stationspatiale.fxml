@@ -90,16 +90,16 @@
                      <children>
                         <Pane prefHeight="552.0" prefWidth="564.0">
                            <children>
-                              <VBox prefHeight="432.0" prefWidth="490.0">
+                              <VBox prefHeight="432.0" prefWidth="490.0" spacing="10.0">
                                  <children>
-                                    <Label id="latitude" fx:id="latitudeStation" alignment="CENTER" prefHeight="245.0" prefWidth="490.0" style="-fx-background-color: #6aa84f; -fx-background-radius: 30;" text="1.52$" textFill="WHITE">
+                                    <Label id="latitude" fx:id="latitudeStation" alignment="CENTER" lineSpacing="5.0" prefHeight="245.0" prefWidth="490.0" style="-fx-background-color: #6aa84f; -fx-background-radius: 30;" text="1.52$" textFill="WHITE">
                                        <font>
-                                          <Font name="Chandas" size="60.0" />
+                                          <Font name="Chandas" size="35.0" />
                                        </font>
                                     </Label>
                                     <Label id="longitude" fx:id="longitudeStation" alignment="CENTER" prefHeight="269.0" prefWidth="490.0" style="-fx-background-color: #6aa84f; -fx-background-radius: 30;" text="1.52$" textFill="WHITE">
                                        <font>
-                                          <Font name="Chandas" size="60.0" />
+                                          <Font name="Chandas" size="35.0" />
                                        </font>
                                     </Label>
                                  </children>
