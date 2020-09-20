@@ -10,9 +10,26 @@ public class StationSpatiale {
 	protected float latitude;
 	protected List<String> passages;
 	
+	public float getLongitude() {
+		return longitude;
+	}
+
+	public void setLongitude(float longitude) {
+		this.longitude = longitude;
+	}
+
+	public float getLatitude() {
+		return latitude;
+	}
+
+	public void setLatitude(float latitude) {
+		this.latitude = latitude;
+	}
+
 	public StationSpatiale()
 	{
 		this.astronautes = new ArrayList<String>();
+		this.passages = new ArrayList<String>();
 	}
 	
 	public void ajouterAstronaute(String astronaute)

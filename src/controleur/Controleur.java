@@ -22,10 +22,12 @@ public class Controleur {
 	}
 
 	public static Vue selectionnerVuePrincipale() {
-		NouvelleDAO nouvelleDAO = new NouvelleDAO();
+		/*NouvelleDAO nouvelleDAO = new NouvelleDAO();
 		List<Nouvelle> nouvelles = nouvelleDAO.listerNouvelles();
 		VueNouvelles.getInstance().afficherListeNouvelles(nouvelles);
 		return VueNouvelles.getInstance();
+		*/
+		return VueStationSpatiale.getInstance();
 		//return VueMirador.getInstance();
 	}
 		

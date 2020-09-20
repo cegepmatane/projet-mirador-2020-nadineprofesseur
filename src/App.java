@@ -1,6 +1,7 @@
 
 
 import donnee.StationSpatialeDAO;
+import modele.StationSpatiale;
 import vue.Fenetre;
 //import java.util.List;
 //import donnee.NouvelleDAO;
@@ -17,10 +18,11 @@ public class App {
 			System.out.println(nouvelle.getTitre());
 		}*/
 		
-		StationSpatialeDAO stationDAO = new StationSpatialeDAO();
-		stationDAO.detaillerStationSpatiale();
-		
-		//Fenetre.launch(Fenetre.class, parametres);	
+		/*StationSpatialeDAO stationDAO = new StationSpatialeDAO();
+		StationSpatiale station = stationDAO.detaillerStationSpatiale();
+		System.out.println(station.getLatitude() + " " + station.getLongitude());
+		*/
+		Fenetre.launch(Fenetre.class, parametres);	
 	}
 
 }

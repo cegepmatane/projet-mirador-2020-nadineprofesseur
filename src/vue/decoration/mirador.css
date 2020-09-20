@@ -67,4 +67,50 @@ and open the template in the editor.
     -fx-text-fill:#94c7d0;
 }
 
+#grille-temperatures Pane
+{
+    -fx-background-color:#c4430b;    
+}
+#liste-statistiques HBox,
+#liste-statistiques Pane
+{
+    -fx-background-color:#f26223;        
+}
+#liste-statistiques HBox Label,
+#liste-statistiques Pane Label
+{
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
 
+#liste-statistiques HBox Label.valeur
+{
+    -fx-background-color:white;        
+    -fx-text-fill:#f26223;    
+    -fx-background-radius:10;
+}
+
+#liste-astronautes HBox,
+#liste-passages HBox
+{
+    -fx-background-color:#6aa84f;        
+}
+#liste-astronautes HBox Label,
+#liste-passages HBox Label
+{
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
+#liste-astronautes HBox  Label.valeur,
+#liste-passages HBox  Label.valeur
+{
+    -fx-background-color:white;        
+    -fx-text-fill:#6aa84f;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
