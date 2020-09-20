@@ -1,5 +1,6 @@
 
 
+import donnee.StationSpatialeDAO;
 import vue.Fenetre;
 //import java.util.List;
 //import donnee.NouvelleDAO;
@@ -16,7 +17,10 @@ public class App {
 			System.out.println(nouvelle.getTitre());
 		}*/
 		
-		Fenetre.launch(Fenetre.class, parametres);	
+		StationSpatialeDAO stationDAO = new StationSpatialeDAO();
+		stationDAO.detaillerStationSpatiale();
+		
+		//Fenetre.launch(Fenetre.class, parametres);	
 	}
 
 }
