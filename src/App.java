@@ -2,6 +2,8 @@
 
 import java.util.List;
 
+import donnee.ExoplaneteDAO;
+import modele.Exoplanete;
 import vue.Fenetre;
 //import donnee.StationSpatialeDAO;
 //import modele.StationSpatiale;
@@ -34,7 +36,14 @@ public class App {
 			System.out.println(meteore.getNom() + " " + meteore.getDate());
 		}*/
 		
-		Fenetre.launch(Fenetre.class, parametres);	
+		ExoplaneteDAO exoplanetesDAO = new ExoplaneteDAO();
+		List<Exoplanete> exoplanetes = exoplanetesDAO.listerExplanete();
+		for(Exoplanete exoplanete:exoplanetes)
+		{
+			System.out.println("On a recupere " + exoplanete.getNom());
+		}
+		
+		//Fenetre.launch(Fenetre.class, parametres);	
 	}
 
 }

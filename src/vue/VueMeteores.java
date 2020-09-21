@@ -5,6 +5,8 @@ import modele.Meteore;
 
 import com.sun.media.jfxmedia.logging.Logger;
 import controleur.ControleurMeteores;
+import javafx.scene.control.Label;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
 public class VueMeteores extends Vue {
@@ -27,7 +29,18 @@ public class VueMeteores extends Vue {
 		for(Meteore meteore:meteores)
 		{
 			System.out.println(meteore.getNom());
+			HBox rangee = new HBox();
+			Label vueNom = new Label(meteore.getNom());
+			Label vueDate = new Label(meteore.getDate());
+			Label vueCoordonnees = new Label(meteore.getLatitude() + "-" + meteore.getLongitude());
+			
+			vueDate.getStyleClass().add("valeur");
+			vueCoordonnees.getStyleClass().add("valeur");
+			rangee.getChildren().add(vueNom);
+			rangee.getChildren().add(vueDate);
+			rangee.getChildren().add(vueCoordonnees);
+			
+			vueListe.getChildren().add(rangee);
 		}
 	}
-	
 }
