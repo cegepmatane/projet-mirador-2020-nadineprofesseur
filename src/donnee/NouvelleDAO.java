@@ -29,9 +29,8 @@ public class NouvelleDAO {
 
 		String xml = "";
 		try {
-			URL urlListePensees;
-			urlListePensees = new URL( URL_LISTE_NOUVELLES );
-			InputStream flux = urlListePensees.openConnection().getInputStream();
+			URL url = new URL( URL_LISTE_NOUVELLES );
+			InputStream flux = url.openConnection().getInputStream();
 			Scanner lecteur = new Scanner(flux);
 			lecteur.useDelimiter(derniereBalise);
 			xml = lecteur.next() + derniereBalise;
