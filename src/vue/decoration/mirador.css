@@ -114,3 +114,44 @@ and open the template in the editor.
     -fx-min-height:100%;
     -fx-font-size:30px;
 }
+
+#liste-gros-meteores HBox
+{
+    -fx-background-color:#6aa84f;        
+}
+#liste-gros-meteores HBox Label
+{
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
+#liste-gros-meteores HBox Label.valeur
+{
+    -fx-background-color:white;        
+    -fx-text-fill:#6aa84f;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
+
+
+#liste-cryptomonnaies HBox
+{
+    -fx-background-color:#6aa84f;        
+}
+#liste-cryptomonnaies HBox Label
+{
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
+#liste-cryptomonnaies HBox Label.valeur
+{
+    -fx-background-color:white;        
+    -fx-text-fill:#6aa84f;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
