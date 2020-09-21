@@ -36,14 +36,14 @@ public class App {
 			System.out.println(meteore.getNom() + " " + meteore.getDate());
 		}*/
 		
-		ExoplaneteDAO exoplanetesDAO = new ExoplaneteDAO();
+		/*ExoplaneteDAO exoplanetesDAO = new ExoplaneteDAO();
 		List<Exoplanete> exoplanetes = exoplanetesDAO.listerExplanete();
 		for(Exoplanete exoplanete:exoplanetes)
 		{
 			System.out.println("On a recupere " + exoplanete.getNom());
 		}
-		
-		//Fenetre.launch(Fenetre.class, parametres);	
+		*/
+		Fenetre.launch(Fenetre.class, parametres);	
 	}
 
 }
