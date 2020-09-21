@@ -8,6 +8,21 @@ public class Exoplanete {
 	protected float inclinaison;
 	protected float axeSemiMajeur;
 	protected float distance;
+	protected float masse;
+	protected float largeur;
+	
+	public float getMasse() {
+		return masse;
+	}
+	public void setMasse(float masse) {
+		this.masse = masse;
+	}
+	public float getLargeur() {
+		return largeur;
+	}
+	public void setLargeur(float largeur) {
+		this.largeur = largeur;
+	}
 	public String getNom() {
 		return nom;
 	}
